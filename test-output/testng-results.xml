@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-20T17:01:34 IST" name="Automation Suite" finished-at="2026-01-20T17:03:30 IST" duration-ms="116620">
+  <suite started-at="2026-01-20T19:10:47 IST" name="Automation Suite" finished-at="2026-01-20T19:12:43 IST" duration-ms="116157">
     <groups>
     </groups>
-    <test started-at="2026-01-20T17:01:34 IST" name="UI Tests" finished-at="2026-01-20T17:03:30 IST" duration-ms="116620">
+    <test started-at="2026-01-20T19:10:47 IST" name="UI Tests" finished-at="2026-01-20T19:12:43 IST" duration-ms="116157">
       <class name="com.selenium.selenium_maven.tests.LoginTest">
-        <test-method is-config="true" signature="generateValidCredentials()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:01:34 IST" name="generateValidCredentials" finished-at="2026-01-20T17:01:34 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="generateValidCredentials()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:10:47 IST" name="generateValidCredentials" finished-at="2026-01-20T19:10:47 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateValidCredentials -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:01:34 IST" name="setUp" finished-at="2026-01-20T17:01:53 IST" duration-ms="18912" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:10:48 IST" name="setUp" finished-at="2026-01-20T19:11:07 IST" duration-ms="19784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,20 +22,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:01:53 IST" name="initTest" finished-at="2026-01-20T17:02:00 IST" duration-ms="6825" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:07 IST" name="initTest" finished-at="2026-01-20T19:11:13 IST" duration-ms="6126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:00 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T17:02:00 IST" duration-ms="116" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:13 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T19:11:14 IST" duration-ms="88" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1768908694323@test.com]]>
+                <![CDATA[user1768916447581@test.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Pwd@1768908694325]]>
+                <![CDATA[Pwd@1768916447583]]>
               </value>
             </param>
             <param index="2">
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:00 IST" name="tearDown" finished-at="2026-01-20T17:02:02 IST" duration-ms="2262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:14 IST" name="tearDown" finished-at="2026-01-20T19:11:16 IST" duration-ms="1933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:02 IST" name="setUp" finished-at="2026-01-20T17:02:15 IST" duration-ms="12389" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:16 IST" name="setUp" finished-at="2026-01-20T19:11:30 IST" duration-ms="14541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:15 IST" name="initTest" finished-at="2026-01-20T17:02:16 IST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:30 IST" name="initTest" finished-at="2026-01-20T19:11:31 IST" duration-ms="1275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:16 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T17:02:18 IST" duration-ms="1900" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:31 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T19:11:33 IST" duration-ms="1827" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:18 IST" name="tearDown" finished-at="2026-01-20T17:02:20 IST" duration-ms="2406" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:33 IST" name="tearDown" finished-at="2026-01-20T19:11:36 IST" duration-ms="2385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:20 IST" name="setUp" finished-at="2026-01-20T17:02:33 IST" duration-ms="12555" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:36 IST" name="setUp" finished-at="2026-01-20T19:11:50 IST" duration-ms="14660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,11 +102,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:33 IST" name="initTest" finished-at="2026-01-20T17:02:34 IST" duration-ms="1089" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:50 IST" name="initTest" finished-at="2026-01-20T19:11:52 IST" duration-ms="1351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:34 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T17:02:36 IST" duration-ms="1842" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:52 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T19:11:53 IST" duration-ms="1630" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:36 IST" name="tearDown" finished-at="2026-01-20T17:02:38 IST" duration-ms="2082" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:53 IST" name="tearDown" finished-at="2026-01-20T19:11:55 IST" duration-ms="2049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:38 IST" name="setUp" finished-at="2026-01-20T17:02:49 IST" duration-ms="11023" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:11:55 IST" name="setUp" finished-at="2026-01-20T19:12:09 IST" duration-ms="13639" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,11 +142,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:49 IST" name="initTest" finished-at="2026-01-20T17:02:50 IST" duration-ms="1257" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:12:09 IST" name="initTest" finished-at="2026-01-20T19:12:10 IST" duration-ms="1275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:50 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T17:02:52 IST" duration-ms="1780" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:12:10 IST" name="validateLogin" data-provider="loginData" finished-at="2026-01-20T19:12:12 IST" duration-ms="1656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,17 +167,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:52 IST" name="tearDown" finished-at="2026-01-20T17:02:54 IST" duration-ms="2034" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:12:12 IST" name="tearDown" finished-at="2026-01-20T19:12:14 IST" duration-ms="2121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@8297b3a]" started-at="2026-01-20T17:02:54 IST" name="flushReport" finished-at="2026-01-20T17:02:55 IST" duration-ms="1065" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.selenium_maven.tests.LoginTest@7817fd62]" started-at="2026-01-20T19:12:14 IST" name="flushReport" finished-at="2026-01-20T19:12:15 IST" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- com.selenium.selenium_maven.tests.LoginTest -->
       <class name="com.selenium.selenium_maven.tests.EndToEndProductTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@609cd4d8]" started-at="2026-01-20T17:03:07 IST" name="setUp" finished-at="2026-01-20T17:03:18 IST" duration-ms="11231" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@bccb269]" started-at="2026-01-20T19:12:24 IST" name="setUp" finished-at="2026-01-20T19:12:34 IST" duration-ms="10059" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,29 +188,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="E2E_Product_Flow()[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@609cd4d8]" started-at="2026-01-20T17:03:18 IST" name="E2E_Product_Flow" finished-at="2026-01-20T17:03:27 IST" duration-ms="9004" status="PASS">
+        <test-method signature="E2E_Product_Flow()[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@bccb269]" started-at="2026-01-20T19:12:34 IST" name="E2E_Product_Flow" finished-at="2026-01-20T19:12:41 IST" duration-ms="7465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E2E_Product_Flow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@609cd4d8]" started-at="2026-01-20T17:03:27 IST" name="tearDown" finished-at="2026-01-20T17:03:30 IST" duration-ms="3034" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@bccb269]" started-at="2026-01-20T19:12:41 IST" name="tearDown" finished-at="2026-01-20T19:12:43 IST" duration-ms="1768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@609cd4d8]" started-at="2026-01-20T17:03:30 IST" name="flushReport" finished-at="2026-01-20T17:03:30 IST" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.selenium_maven.tests.EndToEndProductTest@bccb269]" started-at="2026-01-20T19:12:43 IST" name="flushReport" finished-at="2026-01-20T19:12:43 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- com.selenium.selenium_maven.tests.EndToEndProductTest -->
       <class name="com.selenium.selenium_maven.tests.SearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.selenium_maven.tests.SearchTest@bccb269]" started-at="2026-01-20T17:02:55 IST" name="setUp" finished-at="2026-01-20T17:03:05 IST" duration-ms="9735" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.selenium_maven.tests.SearchTest@66d18979]" started-at="2026-01-20T19:12:15 IST" name="setUp" finished-at="2026-01-20T19:12:22 IST" duration-ms="7432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSearchFunctionality()[pri:0, instance:com.selenium.selenium_maven.tests.SearchTest@bccb269]" started-at="2026-01-20T17:03:05 IST" name="validateSearchFunctionality" finished-at="2026-01-20T17:03:06 IST" duration-ms="1515" status="PASS">
+        <test-method signature="validateSearchFunctionality()[pri:0, instance:com.selenium.selenium_maven.tests.SearchTest@66d18979]" started-at="2026-01-20T19:12:22 IST" name="validateSearchFunctionality" finished-at="2026-01-20T19:12:23 IST" duration-ms="1283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.SearchTest@bccb269]" started-at="2026-01-20T17:03:06 IST" name="tearDown" finished-at="2026-01-20T17:03:07 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.selenium_maven.tests.SearchTest@66d18979]" started-at="2026-01-20T19:12:23 IST" name="tearDown" finished-at="2026-01-20T19:12:24 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
