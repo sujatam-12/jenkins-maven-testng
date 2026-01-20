@@ -1,22 +1,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Automation Suite" parallel="classes" thread-count="2">
+<suite name="Automation Suite" parallel="false" thread-count="2">
     <parameter name="browser" value="chrome"/>
-    <test name="Login Tests">
+    <test name="UI Tests">
     
         <classes>
             <class name="com.selenium.selenium_maven.tests.LoginTest"/>
+     		<class name="com.selenium.selenium_maven.tests.SearchTest"/>
             
-        </classes>
-    </test>
-    
-    <test name="E2E Product Tests">
-    
-        <classes>
             <class name="com.selenium.selenium_maven.tests.EndToEndProductTest"/>
             
         </classes>
     </test>
+    
+   
     
 
 </suite>

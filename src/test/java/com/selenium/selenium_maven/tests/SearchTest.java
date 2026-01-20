@@ -1,4 +1,4 @@
-/*package com.selenium.selenium_maven.tests;
+package com.selenium.selenium_maven.tests;
 
 import com.selenium.selenium_maven.actions.SearchActions;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -55,4 +55,4 @@ public class SearchTest {
             driver.quit();
         }
     }
-}*/
+}

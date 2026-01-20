@@ -1,4 +1,4 @@
-/*package com.selenium.selenium_maven.tests;
+package com.selenium.selenium_maven.tests;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -30,7 +30,7 @@ public class EndToEndProductTest extends BaseTest {
         ProductsPage products = new ProductsPage(driver);
 
         /* ---------- CATEGORY NAVIGATION ---------- */
-        /*test.log(Status.INFO, "Navigating to T-Shirts category");
+        test.log(Status.INFO, "Navigating to T-Shirts category");
         home.goToTshirts();
         products.waitForTshirtsCategory();   // 🔑 FIREFOX FIX
         products.waitForProductsToLoad();
@@ -42,7 +42,7 @@ public class EndToEndProductTest extends BaseTest {
         test.log(Status.PASS, "T-Shirts category verified");
 
         /* ---------- SORTING ---------- */
-       /* test.log(Status.INFO, "Sorting products by price (Low to High)");
+        test.log(Status.INFO, "Sorting products by price (Low to High)");
         products.sortByPriceLowToHigh();
 
         Assert.assertTrue(
@@ -54,17 +54,17 @@ public class EndToEndProductTest extends BaseTest {
 
 
         /* ---------- PRICE + STOCK (TABLE / GRID PARSING) ---------- */
-       /* test.log(Status.INFO, "Validating product price and stock");
+        test.log(Status.INFO, "Validating product price and stock");
         products.validatePriceAndStockData();
 
         /* ---------- PAGINATION ---------- */
-        /*test.log(Status.INFO, "Validating pagination if present");
+        test.log(Status.INFO, "Validating pagination if present");
         products.validatePaginationAcrossPages();
         
         
 
         /* ---------- OUT OF STOCK VALIDATION (LISTING PAGE) ---------- */
-        /*if (products.isFirstProductOutOfStock()) {
+        if (products.isFirstProductOutOfStock()) {
 
             test.log(Status.INFO, "Product is OUT OF STOCK on listing page");
 
@@ -127,7 +127,7 @@ public class EndToEndProductTest extends BaseTest {
         
 
         /* ---------- QUICK VIEW FLOW ---------- */
-        /*test.log(Status.INFO, "Hovering and opening Quick View");
+        test.log(Status.INFO, "Hovering and opening Quick View");
         products.hoverAndClickQuickView();
 
         QuickViewPage quickView = new QuickViewPage(driver);
@@ -180,9 +180,9 @@ public class EndToEndProductTest extends BaseTest {
 
 
         /* ---------- JS ALERT HANDLING ---------- */
-       /* try {
+        try {
             Alert alert = driver.switchTo().alert();
             alert.accept();
         } catch (NoAlertPresentException ignored) {}
     }
-}*/
+}
