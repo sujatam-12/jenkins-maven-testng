@@ -91,7 +91,7 @@ public class BaseTest {
     /* ---------- BROWSER SETUP ---------- */
     @Parameters("browser")
     @BeforeMethod
-    public void setUp(@Optional("chrome") String browser) {
+    public void setUp(@Optional("firefox") String browser) {
     	// 🔑 INIT EXTENT HERE (FIX)
         if (extent == null) {
             extent = ExtentManager.getExtentReport();
@@ -101,7 +101,7 @@ public class BaseTest {
 
     protected void launchBrowser(String browser) {
 
-        if (browser.equalsIgnoreCase("chrome")) {
+        if (browser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         } else {
