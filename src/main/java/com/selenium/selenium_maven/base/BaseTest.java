@@ -101,14 +101,19 @@ public class BaseTest {
 
     protected void launchBrowser(String browser) {
 
-        if (browser.equalsIgnoreCase("firefox")) {
+        if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.firefoxdriver().setup();
-            driver = new FirefoxDriver();
-        } else {
-            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+        } else if (browser.equalsIgnoreCase("firefox")){
+            WebDriverManager.chromedriver().setup();
+            driver = new FirefoxDriver();
+        }
+        
+        else {
+            throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
 
+        
         driver.manage().window().maximize();
         driver.get("http://automationpractice.pl/index.php");
     }

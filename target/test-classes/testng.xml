@@ -7,13 +7,8 @@
         <classes>
             <class name="com.selenium.selenium_maven.tests.LoginTest"/>
      		<class name="com.selenium.selenium_maven.tests.SearchTest"/>
-            
             <class name="com.selenium.selenium_maven.tests.EndToEndProductTest"/>
             
         </classes>
     </test>
-    
-   
-    
-
 </suite>

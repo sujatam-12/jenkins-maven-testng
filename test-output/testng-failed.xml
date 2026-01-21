@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
-  <test thread-count="2" name="UI Tests(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.selenium_maven.tests.LoginTest">
-        <methods>
-          <include name="generateValidCredentials"/>
-          <include name="tearDown"/>
-          <include name="initTest"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="validateLogin"/>
-        </methods>
-      </class> <!-- com.selenium.selenium_maven.tests.LoginTest -->
       <class name="com.selenium.selenium_maven.tests.SearchTest">
         <methods>
           <include name="tearDown"/>
@@ -21,14 +10,6 @@
           <include name="validateSearchFunctionality"/>
         </methods>
       </class> <!-- com.selenium.selenium_maven.tests.SearchTest -->
-      <class name="com.selenium.selenium_maven.tests.EndToEndProductTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="E2E_Product_Flow"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.selenium.selenium_maven.tests.EndToEndProductTest -->
     </classes>
-  </test> <!-- UI Tests(failed) -->
-</suite> <!-- Failed suite [Automation Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

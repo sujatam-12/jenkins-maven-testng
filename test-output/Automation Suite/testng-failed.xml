@@ -21,14 +21,6 @@
           <include name="validateSearchFunctionality"/>
         </methods>
       </class> <!-- com.selenium.selenium_maven.tests.SearchTest -->
-      <class name="com.selenium.selenium_maven.tests.EndToEndProductTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="E2E_Product_Flow"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.selenium.selenium_maven.tests.EndToEndProductTest -->
     </classes>
   </test> <!-- UI Tests(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->
